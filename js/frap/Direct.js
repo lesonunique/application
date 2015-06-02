@@ -117,15 +117,18 @@ Direct = {
 		console.log(showTitle);
 		console.log(showTitle2);
 		
-		Direct._txtShareTweet=showArtiste2+'%20-%20'+showTitle2+'%20http://mysun.mx%20%23NowPlaying%20http://www.lesonunique.com'+Direct._meta.current.url;
+		Direct._txtShareTweet=showArtiste2+'%20-%20'+showTitle2+'%20http://mysun.mx%20%23NowPlaying%20';
+		//Direct._txtShareTweet=showArtiste2+'%20-%20'+showTitle2+'%20http://mysun.mx%20%23NowPlaying%20http://www.lesonunique.com'+Direct._meta.current.url;
         Direct._shareFace='http://www.lesonunique.com'+Direct._meta.current.url;
-		Direct._shareTweet='https://twitter.com/intent/tweet?text='+Direct._txtShareTweet;
+		//Direct._shareTweet='https://twitter.com/intent/tweet?text='+Direct._txtShareTweet;
+		Direct._shareTweet='http://www.lesonunique.com'+Direct._meta.current.url;
 		
 		console.log(Direct._shareFace);
 		console.log(Direct._shareTweet);
 		
         $('#facebook_share').attr('href','javascript: window.plugins.socialsharing.shareViaFacebook("", null, "'+encodeURI(Direct._shareFace)+'");');
-        $('#twitter_share').attr('href','javascript: window.open("'+encodeURI(Direct._shareTweet)+'","_system","location=yes");');
+        $('#twitter_share').attr('href','javascript: window.plugins.socialsharing.shareViaTwitter("'+Direct._txtShareTweet+'", null, "'+Direct._shareTweet+'");');
+		//$('#twitter_share').attr('href','javascript: window.open("'+encodeURI(Direct._shareTweet)+'","_system","location=yes");');
 		//$('#facebook_share').attr('href','javascript: window.open("'+encodeURI(Direct._meta.current.facebook)+'","_blank","location=yes");');
         //$('#twitter_share').attr('href','javascript: window.open("'+encodeURI(Direct._meta.current.twitter)+'","_blank","location=yes");');
 		href="javascript: window.open('#', '_blank', 'location=yes');"
