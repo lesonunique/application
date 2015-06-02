@@ -124,7 +124,7 @@ Direct = {
 		console.log(Direct._shareFace);
 		console.log(Direct._shareTweet);
 		
-        $('#facebook_share').attr('href','javascript: window.plugins.socialsharing.shareViaFacebook("", null /* img */, '+encodeURI(Direct._shareFace)+');');
+        $('#facebook_share').attr('href','javascript: window.plugins.socialsharing.shareViaFacebook("", null, "'+encodeURI(Direct._shareFace)+'");');
         $('#twitter_share').attr('href','javascript: window.open("'+encodeURI(Direct._shareTweet)+'","_system","location=yes");');
 		//$('#facebook_share').attr('href','javascript: window.open("'+encodeURI(Direct._meta.current.facebook)+'","_blank","location=yes");');
         //$('#twitter_share').attr('href','javascript: window.open("'+encodeURI(Direct._meta.current.twitter)+'","_blank","location=yes");');
