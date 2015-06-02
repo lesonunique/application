@@ -153,7 +153,8 @@ Podcasts = {
             //window.open(shareselect2,'_system','location=yes');
 			var shareselect2='http://www.lesonunique.com'+Podcasts._partage_podcast;
 			//var shareselect2=Podcasts._partage_podcast;
-			window.plugins.socialsharing.shareViaFacebook('', null /* img */, shareselect2);
+			//window.plugins.socialsharing.shareViaFacebook('', null /* img */, shareselect2);
+			window.plugins.socialsharing.shareViaFacebook('Journal Matin', 'http://www.lesonunique.com/sites/default/files/styles/mini_article/public/journal.jpg?itok=Ds2gydSO' , 'http://www.lesonunique.com/sites/default/files/podcasts/journalmatin/m-2015-06-02-09-00.mp3');
         }
 	},
 
