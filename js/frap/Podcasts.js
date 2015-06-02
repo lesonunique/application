@@ -132,7 +132,7 @@ Podcasts = {
 		navigator.notification.confirm(
 			'Sur quel réseau social voulez-vous partager ce contenu ?',  // message
 			Podcasts.callBackChoixFacebookTwitter,   // fonction de callback appelée avec l'indice du bouton pressé
-			'Partagez le contenu',    // titre
+			'Partager le contenu',    // titre
 			['Twitter','Facebook']  // libellés des boutons
 		);	
 	},

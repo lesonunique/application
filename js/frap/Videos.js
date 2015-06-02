@@ -95,12 +95,12 @@ Videos = {
     },
 	
 	choixFacebookTwitter : function(tmp) {	
-		Videos._partage_videos=Videos._list_videos[tmp];
-		console.log(Videos._list_videos[tmp]);
+		Videos._partage_videos=Videos._list_videos.list[tmp];
+		console.log(Videos._list_videos.list[tmp]);
 		navigator.notification.confirm(
 			'Sur quel réseau social voulez-vous partager ce contenu ?',  // message
 			Videos.callBackChoixFacebookTwitter,   // fonction de callback appelée avec l'indice du bouton pressé
-			'Partagez le contenu',    // titre
+			'Partager le contenu',    // titre
 			['Twitter','Facebook']  // libellés des boutons
 		);	
 	},
