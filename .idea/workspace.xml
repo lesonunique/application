@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="ad0fa320-68a4-4ba5-89d5-92541038a07d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/frap/Dedicace.js" afterPath="$PROJECT_DIR$/js/frap/Dedicace.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/function/init.js" afterPath="$PROJECT_DIR$/js/function/init.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/frap/Contact.js" afterPath="$PROJECT_DIR$/js/frap/Contact.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/style.less" afterPath="$PROJECT_DIR$/less/style.less" />
+    </list>
+    <ignored path="sources.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="sources" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="style.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/less/style.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="45" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="18105">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dedicace.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/frap/Dedicace.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="446" column="52" selection-start="19240" selection-end="19263" vertical-scroll-proportion="0.7355021" vertical-offset="7062" max-vertical-offset="7769">
+              <folding>
+                <marker date="1384435629297" expanded="false" signature="7607:7625" placeholder="..." />
+                <marker date="1384435629297" expanded="false" signature="7960:7985" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Podcasts.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/frap/Podcasts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="27" selection-start="2117" selection-end="2117" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="2482">
+              <folding>
+                <marker date="1384431297613" expanded="false" signature="887:903" placeholder="..." />
+                <marker date="1384431297613" expanded="false" signature="1316:1332" placeholder="..." />
+                <marker date="1384431297613" expanded="false" signature="1577:1593" placeholder="..." />
+                <marker date="1384431297613" expanded="false" signature="2630:2645" placeholder="..." />
+                <marker date="1384431297613" expanded="false" signature="2861:2880" placeholder="..." />
+                <marker date="1384431297613" expanded="false" signature="4349:4365" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="139" column="38" selection-start="7151" selection-end="7151" vertical-scroll-proportion="0.0" vertical-offset="1716" max-vertical-offset="6222">
+              <folding>
+                <marker date="1384432358167" expanded="true" signature="10507:13722" placeholder="..." />
+                <marker date="1384432358167" expanded="true" signature="10541:13669" placeholder="..." />
+                <marker date="1384432358167" expanded="true" signature="10704:13452" placeholder="..." />
+                <marker date="1384432358167" expanded="true" signature="10729:12363" placeholder="..." />
+                <marker date="1384432358167" expanded="true" signature="10773:12337" placeholder="..." />
+                <marker date="1384432358167" expanded="true" signature="10826:12307" placeholder="..." />
+                <marker date="1384432358167" expanded="true" signature="10921:11232" placeholder="..." />
+                <marker date="1384432358167" expanded="false" signature="11368:11381" placeholder="..." />
+                <marker date="1384432358167" expanded="true" signature="12077:12272" placeholder="..." />
+                <marker date="1384432358167" expanded="false" signature="12139:12147" placeholder="..." />
+                <marker date="1384432358167" expanded="false" signature="12219:12226" placeholder="..." />
+                <marker date="1384432358167" expanded="true" signature="12388:12474" placeholder="..." />
+                <marker date="1384432358167" expanded="true" signature="12499:13191" placeholder="..." />
+                <marker date="1384432358167" expanded="true" signature="12528:13165" placeholder="..." />
+                <marker date="1384432358167" expanded="false" signature="12570:12586" placeholder="..." />
+                <marker date="1384432358167" expanded="true" signature="12587:13135" placeholder="..." />
+                <marker date="1384432358167" expanded="true" signature="12822:13100" placeholder="..." />
+                <marker date="1384432358167" expanded="false" signature="12884:12893" placeholder="..." />
+                <marker date="1384432358167" expanded="false" signature="12965:12973" placeholder="..." />
+                <marker date="1384432358167" expanded="false" signature="13047:13054" placeholder="..." />
+                <marker date="1384432358167" expanded="true" signature="13216:13427" placeholder="..." />
+                <marker date="1384432358167" expanded="true" signature="13844:16119" placeholder="..." />
+                <marker date="1384432358167" expanded="true" signature="13878:16066" placeholder="..." />
+                <marker date="1384432358167" expanded="true" signature="14044:14722" placeholder="..." />
+                <marker date="1384432358167" expanded="true" signature="14069:14697" placeholder="..." />
+                <marker date="1384432358167" expanded="true" signature="14214:14555" placeholder="..." />
+                <marker date="1384432358167" expanded="true" signature="14263:14525" placeholder="..." />
+                <marker date="1384432358167" expanded="false" signature="14321:14330" placeholder="..." />
+                <marker date="1384432358167" expanded="false" signature="14398:14406" placeholder="..." />
+                <marker date="1384432358167" expanded="false" signature="14476:14483" placeholder="..." />
+                <marker date="1384432358167" expanded="false" signature="15536:15549" placeholder="..." />
+                <marker date="1384432358167" expanded="true" signature="15550:15697" placeholder="..." />
+                <marker date="1384432358167" expanded="false" signature="15596:15604" placeholder="..." />
+                <marker date="1384432358167" expanded="false" signature="15660:15667" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/less/style.less" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/js/frap/Flux.js" />
+        <option value="$PROJECT_DIR$/jembe.js" />
+        <option value="$PROJECT_DIR$/js/frap/Api.js" />
+        <option value="$PROJECT_DIR$/js/frap/Contact.js" />
+        <option value="$PROJECT_DIR$/css/JsPlayer/screen.css" />
+        <option value="$PROJECT_DIR$/js/jquery/cardview.js" />
+        <option value="$PROJECT_DIR$/js/function/init.js" />
+        <option value="$PROJECT_DIR$/js/frap/Podcasts.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/frap/Dedicace.js" />
+        <option value="$PROJECT_DIR$/less/style.less" />
+        <option value="$PROJECT_DIR$/js/frap/Player.js" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents ProjectPane="true" />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="function" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JsPlayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="options.lastSelected" value="lessc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
+    <property name="FullScreen" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="PublishConfig" serverName="Sun radio" serverId="986de194-1041-4ab8-9df5-e710252d7788" autoUpload="true">
+    <servers>
+      <server id="551794ca-d7e0-480f-a5d9-d26de20b8091">
+        <serverdata />
+      </server>
+    </servers>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="986de194-1041-4ab8-9df5-e710252d7788" server_name="Sun radio">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="true" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <configuration useDefault="true">C:\Users\Tomasi\AppData\Roaming\Subversion</configuration>
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad0fa320-68a4-4ba5-89d5-92541038a07d" name="Default" comment="" />
+      <created>1380191828349</created>
+      <updated>1380191828349</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32707775" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32841823" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297587" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15925394" sideWeight="0.67158175" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32841823" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297587" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976446" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10992529" sideWeight="0.6702356" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/css/JsPlayer/screen.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="27" selection-start="128" selection-end="128" vertical-scroll-proportion="0.14166667" vertical-offset="0" max-vertical-offset="2329" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/JsPlayer/jsplayer/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.1486111" vertical-offset="827" max-vertical-offset="1547" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/JsPlayer/jsplayer/jsplayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.3055556" vertical-offset="1660" max-vertical-offset="2431" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/JsPlayer/jsplayer/mode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="17510" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/JsPlayer/jsplayer/model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-15.1027775" vertical-offset="10874" max-vertical-offset="11594" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/frap/Flux.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/function/Rater.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="9" selection-start="1428" selection-end="2170" vertical-scroll-proportion="1.4186704" vertical-offset="0" max-vertical-offset="1139" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/frap/Api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="32" selection-start="1481" selection-end="1500" vertical-scroll-proportion="0.0" vertical-offset="851" max-vertical-offset="2737" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery/cardview.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="379" column="32" selection-start="9956" selection-end="9964" vertical-scroll-proportion="0.0" vertical-offset="5889" max-vertical-offset="13328">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/frap/Player.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="188" column="0" selection-start="6178" selection-end="6178" vertical-scroll-proportion="1.4958333" vertical-offset="2119" max-vertical-offset="3349" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/frap/Contact.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="35" selection-start="1808" selection-end="1808" vertical-scroll-proportion="0.5148515" vertical-offset="554" max-vertical-offset="1632">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/function/init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="0" selection-start="3201" selection-end="3201" vertical-scroll-proportion="0.24444444" vertical-offset="1150" max-vertical-offset="4369" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="139" column="38" selection-start="7151" selection-end="7151" vertical-scroll-proportion="0.0" vertical-offset="1716" max-vertical-offset="6222">
+          <folding>
+            <marker date="1384432358167" expanded="true" signature="10507:13722" placeholder="..." />
+            <marker date="1384432358167" expanded="true" signature="10541:13669" placeholder="..." />
+            <marker date="1384432358167" expanded="true" signature="10704:13452" placeholder="..." />
+            <marker date="1384432358167" expanded="true" signature="10729:12363" placeholder="..." />
+            <marker date="1384432358167" expanded="true" signature="10773:12337" placeholder="..." />
+            <marker date="1384432358167" expanded="true" signature="10826:12307" placeholder="..." />
+            <marker date="1384432358167" expanded="true" signature="10921:11232" placeholder="..." />
+            <marker date="1384432358167" expanded="false" signature="11368:11381" placeholder="..." />
+            <marker date="1384432358167" expanded="true" signature="12077:12272" placeholder="..." />
+            <marker date="1384432358167" expanded="false" signature="12139:12147" placeholder="..." />
+            <marker date="1384432358167" expanded="false" signature="12219:12226" placeholder="..." />
+            <marker date="1384432358167" expanded="true" signature="12388:12474" placeholder="..." />
+            <marker date="1384432358167" expanded="true" signature="12499:13191" placeholder="..." />
+            <marker date="1384432358167" expanded="true" signature="12528:13165" placeholder="..." />
+            <marker date="1384432358167" expanded="false" signature="12570:12586" placeholder="..." />
+            <marker date="1384432358167" expanded="true" signature="12587:13135" placeholder="..." />
+            <marker date="1384432358167" expanded="true" signature="12822:13100" placeholder="..." />
+            <marker date="1384432358167" expanded="false" signature="12884:12893" placeholder="..." />
+            <marker date="1384432358167" expanded="false" signature="12965:12973" placeholder="..." />
+            <marker date="1384432358167" expanded="false" signature="13047:13054" placeholder="..." />
+            <marker date="1384432358167" expanded="true" signature="13216:13427" placeholder="..." />
+            <marker date="1384432358167" expanded="true" signature="13844:16119" placeholder="..." />
+            <marker date="1384432358167" expanded="true" signature="13878:16066" placeholder="..." />
+            <marker date="1384432358167" expanded="true" signature="14044:14722" placeholder="..." />
+            <marker date="1384432358167" expanded="true" signature="14069:14697" placeholder="..." />
+            <marker date="1384432358167" expanded="true" signature="14214:14555" placeholder="..." />
+            <marker date="1384432358167" expanded="true" signature="14263:14525" placeholder="..." />
+            <marker date="1384432358167" expanded="false" signature="14321:14330" placeholder="..." />
+            <marker date="1384432358167" expanded="false" signature="14398:14406" placeholder="..." />
+            <marker date="1384432358167" expanded="false" signature="14476:14483" placeholder="..." />
+            <marker date="1384432358167" expanded="false" signature="15536:15549" placeholder="..." />
+            <marker date="1384432358167" expanded="true" signature="15550:15697" placeholder="..." />
+            <marker date="1384432358167" expanded="false" signature="15596:15604" placeholder="..." />
+            <marker date="1384432358167" expanded="false" signature="15660:15667" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/frap/Podcasts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="27" selection-start="2117" selection-end="2117" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="2482">
+          <folding>
+            <marker date="1384431297613" expanded="false" signature="887:903" placeholder="..." />
+            <marker date="1384431297613" expanded="false" signature="1316:1332" placeholder="..." />
+            <marker date="1384431297613" expanded="false" signature="1577:1593" placeholder="..." />
+            <marker date="1384431297613" expanded="false" signature="2630:2645" placeholder="..." />
+            <marker date="1384431297613" expanded="false" signature="2861:2880" placeholder="..." />
+            <marker date="1384431297613" expanded="false" signature="4349:4365" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="45" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="18105">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/frap/Dedicace.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="446" column="52" selection-start="19240" selection-end="19263" vertical-scroll-proportion="0.7355021" vertical-offset="7062" max-vertical-offset="7769">
+          <folding>
+            <marker date="1384435629297" expanded="false" signature="7607:7625" placeholder="..." />
+            <marker date="1384435629297" expanded="false" signature="7960:7985" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <last-edited>Unnamed</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

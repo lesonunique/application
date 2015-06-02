@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="user-scalable=no, initial-scale=1, width=device-width" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<link rel="apple-touch-icon" href="images/icone-sun.png" />
+
+<!-- SMART BANNER -->
+<meta name="author" content="SUN, Inc.">
+    <meta name="apple-itunes-app" content="app-id=937219562">
+    <meta name="google-play-app" content="app-id=fr.frap.sunradio">
+    <link rel="stylesheet" href="smartbanner/jquery.smartbanner.css" type="text/css" media="screen">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+	
+<title>SUN</title>
+<link rel="stylesheet" href="fonts/stylesheet.css" />
+<link rel="stylesheet" href="fonts/style.css" />
+<link rel="stylesheet" href="css/JsPlayer/screen.css" />
+<link rel="stylesheet" href="css/style.css" />
+<!--<script type="text/javascript" src="js/jquery/jquery-1.9.0.min.js"></script>
+<script type="text/javascript" src="js/jquery/jquery-ui-1.9.2.min.js"></script>-->
+<!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>-->
+<script type="text/javascript" src="js/jquery/111/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="js/jquery/111/jquery-ui.min.js"></script>
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="jembe.js"></script>
+<script type="text/javascript">
+	 jembe_debug();
+    if (typeof console == "undefined") {
+        window.console = {log: function() {}};
+    }
+</script>
+</head>
+<body>
+	<div id="container">
+
+        <div class="page" id="page_direct">
+            <div id="scroller">
+                <div id="player_picture"></div>
+            </div>
+        </div>
+
+        <div class="page" id="page_podcasts">
+            <div id="scroller"><div align="center" style="margin-top:50px;"><img src="images/player/301.gif" width="64" /></div></div>
+            <div id="player_podcasts"></div>
+            <div id="voile" style="background:rgba(0,0,0,.5);position:absolute;bottom:0;top:0;right:0;left:0;z-index:2;display:none;"></div>
+			<div id="date_podcasts"><a href="javascript:" onclick="Podcasts.changeDate('moins');"><img src="images/arrow-left.png" border="0"/></a> <span id="date_list"></span> <a href="javascript:" onclick="Podcasts.changeDate('plus');" id="dateSup"><img src="images/arrow-right.png" border="0"/></a></div>
+        </div>
+
+        <div class="page" id="page_videos">
+            <div id="scroller">
+                <div align="center" style="margin-top:50px;"><img src="images/player/301.gif" width="64" /></div>
+            </div>
+        </div>
+
+        <div class="page" id="page_embed_video" style="background: black;overflow:hidden;">
+            <div id="scroller">
+                <div id="dm_player"></div>
+            </div>
+        </div>
+
+        <div class="page" id="page_contact">
+            <div id="scroller">
+                <div style="background: #177ca8;margin-top:10px;">
+                    <div class="c_telecharger"><table><tr><td><img src="images/icone-camera.png" id="icon-camera" border="0" align="middle" /></td><td>télécharger une photo</td></tr></table></div>
+                    <div style="display: none;"><input type="hidden" id="telechargerphoto" value="" /></div>
+                    <table width="100%" cellpadding="5" cellspacing="0" border="0">
+                        <tr>
+                            <td align="center"><div class="icone" data-icon="&#xe070;"></div></td>
+                            <td><input type="text" id="c_nom" placeholder="Nom" class="c_input" /></td>
+                        </tr>
+                        <tr>
+                            <td align="center"><div class="icone" data-icon="&#xe040;"></div></td>
+                            <td><input type="email" id="c_mail" placeholder="E-mail" class="c_input" /></td>
+                        </tr>
+                        <tr>
+                            <td align="center"><div class="icone" data-icon="&#xe054;"></div></td>
+                            <td><input type="tel" id="c_mobile" placeholder="Portable" class="c_input" /></td>
+                        </tr>
+                        <tr>
+                            <td align="center"><div class="icone" data-icon="&#xe071;"></div></td>
+                            <td><select id="c_destinataire" class="c_input"><option>Envoyé à</option></select></td>
+                        </tr>
+                        <tr>
+                            <td align="center" valign="top"><div class="icone" data-icon="&#xe06a;"></div></td>
+                            <td><textarea id="c_message" placeholder="Message" class="c_input"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td align="right"><input type="button" value="envoyer" onclick="Contact.sendForm();" class="c_input_submit" /></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div id="loader_contact"><img src="images/loader_white.gif" border="0"/></div>
+        </div>
+
+        <div class="page" id="page_informations">
+            <div id="scroller">
+                <p id="informations_bloc"></p>
+                <p align="center" id="version_bloc"></p>
+            </div>
+        </div>
+
+        <div class="page" id="page_dedicace">
+            <div id="scroller">
+                <div id="step1" class="selectHour">
+                    <table cellpadding="0" cellspacing="0" border="0" class="table-dedicace">
+                        <tr>
+                            <td colspan="2" class="title"><img src="images/player/music.png" border="0" align="absmiddle" width="50" /> dédicacez un titre !</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><a href="javascript:" onclick="Dedicace.selectDay('today');">aujourd'hui</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="borderTB"><a href="javascript:" onclick="Dedicace.selectDay('tomorrow');">demain</a></td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="step1bis">
+                    <table cellpadding="0" cellspacing="0" border="0" class="table-dedicace">
+                        <tr>
+                            <td colspan="2" class="title">
+                                dédicacez un titre !<br /><span id="datetime"></span><br><div style="font-size:10px;text-transform:none;line-height:14px;"><em>Faîtes glisser les heures / minutes<br/>de gauche à droite pour les changer.</em></div>
+                                <div class="fs1" aria-hidden="true" onclick="Dedicace.backStep1();" data-icon="&#xe136;"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="50%" class="borderL">
+                                <div id="wrapperH">
+                                    <ul id="deck">
+                                        <li class="card"><div></div></li>
+                                        <li class="card"><div></div></li>
+                                        <li class="card"><div></div></li>
+                                    </ul>
+                                </div>
+                            </td>
+                            <td width="50%" class="borderR">
+                                <div id="wrapperM">
+                                    <ul id="deck">
+                                        <li class="card"><div></div></li>
+                                        <li class="card"><div></div></li>
+                                        <li class="card"><div></div></li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="borderT"><a href="javascript:" onclick="Dedicace._search_words = '';Dedicace.valideDedicace();" >valider</a></td>
+                        </tr>
+                    </table>
+                    <div class="pochette" id="pochette_dedicace"></div>
+                </div>
+                <div id="step2"></div>
+                <div id="step3"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="partage_direct">
+        <div id="box_partage_direct">
+            <table width="100%" height="80" cellpadding="0" celcspacing="0" border="0">
+                <tr>
+                    <td align="center">
+                        <div class="partage">
+                            <!--<a href="javascript:"><img src="images/thumbs-down.png" /></a> <a href="javascript:"><img src="images/thumbs-up.png" /></a>--> <a href="#" id="twitter_share" target="_blank"><img src="images/twitter.png" /></a> <a href="#" id="facebook_share" target="_blank"><img src="images/facebook.png" /></a>
+                        </div>
+                    </td>
+                    <td width="20" class="btn">+</td>
+                </tr>
+            </table>
+        </div>
+        <div id="box_titre_direct">
+           <table width="100%" height="80" cellpadding="0" celcspacing="0" border="0">
+               <tr>
+                   <td>
+                       <img src="images/player/301.gif" border="0" width="50" />
+                   </td>
+               </tr>
+           </table>
+        </div>
+    </div>
+
+    <div id="header">
+        <div class="nav">
+            <div class="onglet"><a href="javascript:" id="num_message"><span aria-hidden="true" class="icon-bubble"></span> laisser un message</a></div>
+            <div class="onglet"><a href="javascript:" id="num_standard"><span aria-hidden="true" class="icon-phone"></span> joindre le standard</a></div>
+            <div class="onglet" id="informations"><a href="javascript:"><span aria-hidden="true" class="icon-info"></span> informations</a></div>
+        </div>
+        <div class="bottom">
+            <div class="arrow"></div>
+            <div class="logo"><img src="images/sun-radio-logo.png" /></div>
+        </div>
+    </div>
+
+    <div id="menu">
+        <a id="direct">direct</a><a id="podcasts">podcasts</a><a id="videos">vidéos</a><a id="contact">contact</a>
+    </div>
+
+    <!-- JSPLAYER -->
+    <div id="jsplayer"></div>
+
+    <!-- Android bouton fermer -->
+    <div class="btn_android_footerHome" id="btn_android_footerHome">
+        <div class="icone_footer"><img src="images/icone_fermer_off.png" height="28" alt="Fermer l'application" title="Fermer l'application" border="0" /></div>
+        <div>quitter</div>
+    </div>
+
+    <script type="text/javascript" src="js/jquery/iscroll.js"></script>
+    <script type="text/javascript" src="js/jquery/cardview.js"></script>
+    <script type="text/javascript" src="js/jquery/jquery.touchSwipe.min.js"></script>
+    <script type="text/javascript" src="js/frap/Api.js"></script>
+    <script type="text/javascript" src="js/frap/Podcasts.js"></script>
+    <script type="text/javascript" src="js/frap/Videos.js"></script>
+    <script type="text/javascript" src="js/frap/Player.js"></script>
+    <script type="text/javascript" src="js/frap/Dedicace.js"></script>
+    <script type="text/javascript" src="js/frap/Direct.js"></script>
+    <script type="text/javascript" src="js/frap/Contact.js"></script>
+    <script type="text/javascript" src="js/frap/Flux.js"></script>
+    <script type="text/javascript" src="js/frap/Rater.js"></script>
+    <script type="text/javascript" src="js/frap/init.js"></script>
+
+    <!-- JsPlayer -->
+    <script type="text/template" id="player-template">
+        <div class="jsplayer">
+            <div class="control">
+                <div class="mode"></div>
+                <div class="info"></div>
+
+                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <td align="center">
+                            <div class="controller">
+                                <span id="textePlayer"></span>
+								<span id="btns_player">
+									<img class="loading" src="images/player/301.gif" border="0" />
+                                	<img class="btn_play" src="images/player/play.png" border="0"  />
+                                	<img class="btn_pause" src="images/player/pause.png" border="0" />
+                                </span>
+                                <img id="btn_reload" src="images/player/refresh.png" onclick="Player.playDirect();" border="0" style="display:none;"  />
+
+								<img src="images/player/music.png" border="0" id="btn_dedicace" onclick="Dedicace.launch();" />
+
+                                <img class="btn_unmute" src="images/player/volume-mute2.png" border="0" />
+                                <img class="btn_mute" src="images/player/volume-high.png" border="0" />
+
+                                <button class="btn_backward">Backward</button>
+                                <button class="btn_forward">Forward</button>
+                                <button class="btn_volume_moins">Volume -</button>
+                                <button class="btn_volume_plus">Volume +</button>
+                                <div class="volume">
+                                    <div class="bar" style="width: 0"></div>
+                                    <div class="handle" style="left: 0"></div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><div class="boxhr2"></div></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div style="padding:5px 10%;">
+                                <span class="buffering"><img src="images/player/301.gif" border="0" /></span>
+                                <span class="buffering_percent"></span>
+                                <div class="slider">
+                                    <div class="bar" style="width: 0;"></div>
+                                    <div class="handle" style="left: 0;"></div>
+                                    <div class="seektime" style="left: 0"></div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" class="timer"><span class="time_now"><%= time_now %></span><span id="separateur"> / </span><span class="time_end"><%= time_end %></span></td>
+                    </tr>
+                </table>
+
+                <div class="time_start"><%= time_start %></div>
+                <div class="track_name"><%= track_name %></div>
+                <div class="time_playing"><%= time_playing %></div>
+
+            </div>
+            <div class="audio"></div>
+        </div>
+    </script>
+    
+    <script type="text/template" id="player-html-template"><audio id="audio<%= id %>" src="<%= track_url %>"></audio></script>
+    <script type="text/template" id="player-flash-template"><div id="audio_container<%= id %>">FLASH PLAYER NOT AVAILABLE</div></script>
+
+    <script src="js/JsPlayer/vendor/json2/json2.js"></script>
+    <!--script src="js/JsPlayer/vendor/jquery-ui/jquery-ui-1.8.21.custom.min.js"></script-->
+    <script src="js/JsPlayer/vendor/jquery.ui.touch-punch/jquery.ui.touch-punch.min.js"></script>
+    <script src="js/JsPlayer/vendor/underscore/underscore-min.js"></script>
+    <script src="js/JsPlayer/vendor/backbone/backbone-min.js"></script>
+    <script src="js/JsPlayer/vendor/backbone/backbone.getters.setters.js"></script>
+    <script src="js/JsPlayer/vendor/swfobject/swfobject.js"></script>
+    <script src="js/JsPlayer/vendor/mobileesp/mdetect.js"></script>
+    <script src="js/JsPlayer/jsplayer/util.js"></script>
+    <script src="js/JsPlayer/jsplayer/state.js"></script>
+    <script src="js/JsPlayer/jsplayer/mode.js"></script>
+    <script src="js/JsPlayer/jsplayer/model.js"></script>
+    <script src="js/JsPlayer/jsplayer/view.flash.js"></script>
+    <script src="js/JsPlayer/jsplayer/view.html.js"></script>
+    <script src="js/JsPlayer/jsplayer/view.jembe.js"></script>
+    <script src="js/JsPlayer/jsplayer/view.samsung2012.js"></script>
+    <!--<script src="js/JsPlayer/jsplayer/view.lg-netcast.js"></script>-->
+    <script src="js/JsPlayer/jsplayer/view.wp7.js"></script>
+    <script src="js/JsPlayer/jsplayer/view.js"></script>
+    <script src="js/JsPlayer/jsplayer/jsplayer.js"></script>
+		<!--<script Smart Banner Android></script>-->
+    <!--<script type='text/javascript' src='smartbanner/jquery.smartbanner.js'></script>
+            <script type="text/javascript">
+                var android = location.href.match(/#android$/) || navigator.userAgent.match(/Android/i) != null;
+                $.smartbanner({
+                    title: 'MySUN',
+                    author: 'lesonunique.com',
+					price: 'GRATUIT', // Price of the app
+                    icon: 'images/google_sun.png',
+					button: 'INSTALLER', // Text on the install button
+                 //  force: android ? 'android' : 'ios',
+				    daysHidden: 0,
+                    daysReminder: 0,
+                });
+				
+				console.log('banniere android');
+      
+                $('.theme-toggle').on('click', function(e) {
+                    e.preventDefault();
+                    $.smartbanner('switchType')
+                    $(this).text($(this).text() == 'Preview Android' ? 'Preview iOS' : 'Preview Android')
+                })
+      
+                if (android) $('.theme-toggle').text('Preview iOS');
+            </script>-->
+</body>
+</html>
