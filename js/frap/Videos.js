@@ -95,7 +95,7 @@ Videos = {
     },
 	
 	choixFacebookTwitter : function(tmp) {	
-		Videos._partage_videos=Videos._list_videos.list[tmp];
+		Videos._partage_videos=Videos._list_videos.list[tmp].url;
 		console.log(Videos._list_videos.list[tmp]);
 		navigator.notification.confirm(
 			'Sur quel réseau social voulez-vous partager ce contenu ?',  // message
@@ -111,7 +111,7 @@ Videos = {
 			console.log(Videos._partage_videos);
 			//var shareselect='https://twitter.com/intent/tweet?text=http://www.lesonunique.com'+Podcasts._partage_podcast;
 			//window.open(shareselect,'_system','location=yes');
-			var shareselect='http://www.lesonunique.com'+Videos._partage_videos;
+			var shareselect=Videos._partage_videos;
 			window.plugins.socialsharing.shareViaTwitter('', null /* img */, shareselect);
         } 
 		else if(button==2) {
@@ -119,7 +119,7 @@ Videos = {
 			console.log(Videos._partage_videos);
 			//var shareselect='http://www.facebook.com/sharer.php?u=http://www.lesonunique.com'+Videos._partage_videos;
             //window.open(shareselect,'_system','location=yes');
-			var shareselect2='http://www.lesonunique.com'+Videos._partage_videos;
+			var shareselect2=Videos._partage_videos;
 			window.plugins.socialsharing.shareViaFacebook('', null /* img */, shareselect2);
         }
 	},
