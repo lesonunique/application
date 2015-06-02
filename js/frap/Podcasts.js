@@ -127,8 +127,8 @@ Podcasts = {
     },
 	
 	choixFacebookTwitter : function(tmp) {	
-		Podcasts._partage_podcast=Podcasts._list_podcasts[tmp].son;
-		console.log(Podcasts._partage_podcast);
+		Podcasts._partage_podcast=Podcasts._list_podcasts[tmp].url;
+		console.log(Podcasts._list_podcasts[tmp]);
 		navigator.notification.confirm(
 			'Sur quel réseau social voulez-vous partager ce contenu ?',  // message
 			Podcasts.callBackChoixFacebookTwitter,   // fonction de callback appelée avec l'indice du bouton pressé
@@ -151,8 +151,8 @@ Podcasts = {
 			console.log(Podcasts._partage_podcast);
 			//var shareselect2='https://www.facebook.com/sharer/sharer.php?u='+escape('http%3A%2F%2Fwww.lesonunique.com'+Podcasts._partage_podcast);
             //window.open(shareselect2,'_system','location=yes');
-			//var shareselect2='http://www.lesonunique.com'+Podcasts._partage_podcast;
-			var shareselect2=Podcasts._partage_podcast;
+			var shareselect2='http://www.lesonunique.com'+Podcasts._partage_podcast;
+			//var shareselect2=Podcasts._partage_podcast;
 			window.plugins.socialsharing.shareViaFacebook('', null /* img */, shareselect2);
         }
 	},
