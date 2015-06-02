@@ -139,7 +139,7 @@ Videos = {
         }
         Player.player.pause();
 	
-		Videos._player =  DM.player("dm_player", {video: Videos._list_videos.list[p_node].id, width:$("#page_embed_video").width(), params: { html:true, related:false, autoplay:1, fullscreen: 1} });
+		Videos._player =  DM.player("dm_player", {video: Videos._list_videos.list[p_node].id, width:$("#page_embed_video").width(), params: { html:true, related:false, autoplay:1, fullscreen:1} });
 		Videos._player.addEventListener("apiready", function(e)
         {
 
