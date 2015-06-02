@@ -118,7 +118,7 @@ Direct = {
 		console.log(showTitle2);
 		
 		Direct._txtShareTweet=showArtiste2+'%20-%20'+showTitle2+'%20http://mysun.mx%20%23NowPlaying%20http://www.lesonunique.com'+Direct._meta.current.url;
-        Direct._shareFace='https://www.facebook.com/sharer/sharer.php?u=http://www.lesonunique.com'+Direct._meta.current.url;
+        Direct._shareFace='http://www.lesonunique.com'+Direct._meta.current.url;
 		Direct._shareTweet='https://twitter.com/intent/tweet?text='+Direct._txtShareTweet;
 		
 		console.log(Direct._shareFace);
