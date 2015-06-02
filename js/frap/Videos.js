@@ -109,16 +109,12 @@ Videos = {
 		if (button==1) {
 			console.log("Twitter");
 			console.log(Videos._partage_videos);
-			//var shareselect='https://twitter.com/intent/tweet?text=http://www.lesonunique.com'+Podcasts._partage_podcast;
-			//window.open(shareselect,'_system','location=yes');
 			var shareselect=Videos._partage_videos;
 			window.plugins.socialsharing.shareViaTwitter('', null /* img */, shareselect);
         } 
 		else if(button==2) {
 			console.log("Facebook");
 			console.log(Videos._partage_videos);
-			//var shareselect='http://www.facebook.com/sharer.php?u=http://www.lesonunique.com'+Videos._partage_videos;
-            //window.open(shareselect,'_system','location=yes');
 			var shareselect2=Videos._partage_videos;
 			window.plugins.socialsharing.shareViaFacebook('', null /* img */, shareselect2);
         }
@@ -133,8 +129,6 @@ Videos = {
             $('#video_like_'+p_node).addClass('active');
         }
     },
-	
-	//<a href="javascript:window.open(\'http://www.facebook.com/sharer.php?u='+escape(Videos._list_videos.list[i].url)+'\',\'_system\',\'location=yes\');" id="video_like_'+i+'" class="like" data-icon="&#xe0d4;"></a
 
     playVideo : function(p_node) {
 		
