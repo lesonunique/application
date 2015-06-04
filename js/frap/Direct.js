@@ -45,17 +45,15 @@ Direct = {
 				console.log(Direct._meta);
 				//console.log('typeof(Direct._meta)='+typeof(Direct._meta)+', '+Direct._meta.current.title);
 				//alert('Direct._meta.current.length = '+Direct._meta.current.length);
-				//if(Direct._current_direct != Direct._meta.current.title) {
+				if(Direct._current_direct != Direct._meta.current.title) {
 					Direct._current_direct = Direct._meta.current.title;
 					console.log('Show title');
 					Direct.showTitle();
-				//}
+				}
 			},
 			error: function() 
 			{
 				console.log('********************************************* Direct.callback_error=');
-				//$('#box_titre_direct').html('DATA Direct indisponible !');
-				//$('#player_picture').html('<img src="images/sun-radio-logo.png" border="0" height="158">');
 			}
 		});
 		
@@ -106,21 +104,27 @@ Direct = {
 
     showTitle : function() {
 		var showArtiste = Direct._meta.current.artiste;
-		//var showArtiste2 = showArtiste.replace(' ','%20');
-		var showArtiste2 = showArtiste.replace(/\s/g,'%20');
-		console.log(showArtiste);
-		console.log(showArtiste2);
+		if (typeof(showArtiste) != "undefined")
+		{
+			var showArtiste2 = showArtiste.replace(/\s/g,'%20');
+			console.log(showArtiste);
+			console.log(showArtiste2);
+		}
 		
 		var showTitle = Direct._meta.current.title;
-		//var showTitle2 = showTitle.replace(' ','%20');
 		var showTitle2 = showTitle.replace(/\s/g,'%20');
 		console.log(showTitle);
 		console.log(showTitle2);
 		
-		Direct._txtShareTweet=showArtiste2+'%20-%20'+showTitle2+'%20http://mysun.mx%20%23NowPlaying%20';
-		//Direct._txtShareTweet=showArtiste2+'%20-%20'+showTitle2+'%20http://mysun.mx%20%23NowPlaying%20http://www.lesonunique.com'+Direct._meta.current.url;
+		if (typeof(showArtiste) != "undefined")
+		{
+			Direct._txtShareTweet=showArtiste2+'%20-%20'+showTitle2+'%20http://mysun.mx%20%23NowPlaying%20';
+		}
+		else
+		{
+			Direct._txtShareTweet=showTitle2+'%20http://mysun.mx%20%23NowPlaying%20';	
+		}
         Direct._shareFace='http://www.lesonunique.com'+Direct._meta.current.url;
-		//Direct._shareTweet='https://twitter.com/intent/tweet?text='+Direct._txtShareTweet;
 		Direct._shareTweet='http://www.lesonunique.com'+Direct._meta.current.url;
 		
 		console.log(Direct._shareFace);
