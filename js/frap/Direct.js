@@ -45,11 +45,11 @@ Direct = {
 				console.log(Direct._meta);
 				//console.log('typeof(Direct._meta)='+typeof(Direct._meta)+', '+Direct._meta.current.title);
 				//alert('Direct._meta.current.length = '+Direct._meta.current.length);
-				if(Direct._current_direct != Direct._meta.current.title) {
+				//if(Direct._current_direct != Direct._meta.current.title) {
 					Direct._current_direct = Direct._meta.current.title;
 					console.log('Show title');
 					Direct.showTitle();
-				}
+				//}
 			},
 			error: function() 
 			{
