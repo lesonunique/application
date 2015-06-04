@@ -1,11 +1,11 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.frap.sunradio" version="1.0.3">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="fr.frap.sunradio" version="1.0.3">
 
 	<name>SUN</name>
 	
 	<description>
 	Pour la première fois en France, MySUN vous permet de prendre instantanément le contrôle de votre radio (FM/RNT/WEB), de dédicacer un morceau et de le partager avec vos amis. Les nouveaux talents ont aussi la possibilité de se faire connaitre grâce à ce service...
 	
-	L’application pour smartphones SUN permet aussi d'écouter les programmes de la radio partout en direct, sur votre téléphone Android !
+	L’application pour smartphones SUN permet aussi d'écouter les programmes de la radio partout en direct, sur votre téléphone !
 	
 	Mais aussi :
 	- les derniers podcasts
