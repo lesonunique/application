@@ -28,7 +28,7 @@ Flux = {
 					Player.init();
 					Rater.init();
 					Direct.init();
-					Dedicace.init();
+					//Dedicace.init();
 				} else {
 					console.log('FLUX.js callback_frap 5');
 					alert('connexion error flux');
