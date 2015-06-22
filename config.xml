@@ -48,10 +48,8 @@
 	<gap:plugin name="nl.x-services.plugins.socialsharing" source="plugins.cordova.io" />
 	<gap:plugin name="nl.kingsquare.background-audio" />
 	<!--<gap:plugin name="com.cordova.background-audio" />-->
-	<gap:config-file platform="ios" parent="UIBackgroundModes" overwrite="true">
-		<array>
-			<string>audio</string>
-		</array>
+	<gap:config-file platform="ios" parent="UIApplicationExitsOnSuspend" overwrite="true">
+    	<false/>
 	</gap:config-file>
 	
 	<icon src="images/logos/ios/57x57.png" gap:platform="ios" width="57" height="57" />
