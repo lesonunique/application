@@ -3,10 +3,8 @@
 	id: 'sun',
 	nom: 'Sun Radio',
 	racine: 'http://www.lesonunique.com/',
-	racine_services: 'http://sun.lafrap.fr/',
-	//racine_services: 'http://www.lesonunique.com/',
-	//racine_services: 'http://80.82.229.204:80/',
-	//racine_services: 'http://80.82.229.214/',
+	//racine_services: 'http://sun.lafrap.fr/',
+	racine_services: 'http://www.lesonunique.com/',
 	repertoire_dedicace: 'dedicace',
 	
 	mp3_direct: {
@@ -19,7 +17,7 @@
 	mp3_racine_podcast : '/home/www/lesonunique/sites/defaut/files/podcasts',
 	ws_meta_direct:'http://lesonunique.com/appli/now.json',
 	//ws_meta_direct:'http://80.82.229.204:80/appli/now.json',
-	ws_podcasts: 'http://80.82.229.204/services/views/services.json',
+	ws_podcasts: 'http://www.lesonunique.com/services/views/services.json',
 	ws_video: 'https://api.dailymotion.com/user/lesonunique/videos&fields=thumbnail_medium_url,id,title,channel,owner,embed_html,duration,views_total,url', 
 		
 	facebook_url : 'https://www.facebook.com/lesonunique',
