@@ -79,8 +79,6 @@ $(document).ready(function () {
 	jembe.settings.set({'param':'status-bar-style', 'value':'black-translucent'});
 	jembe.alert.notify({'tickerText': 'Graffiti Urban Radio', 'contentTitle': 'Graffiti Urban Radio', 'contentText': '', 'flag': 'service'});
 	jembe.control.listenState(minimizeAPI);
-	//jembe.control.listenKey('4', chooseBackOptions, true);
-	//jembe.control.listenKey('82', openMenuAndroid);
 
 	$(document).bind('touchmove',function(e) {
 		e.preventDefault();
@@ -135,11 +133,6 @@ $(document).ready(function () {
     });
 
     Flux.init();
-    //Api.init();
-	//Player.init();
-    //Rater.init();
-    //Podcasts.init();
-    //Videos.init();
 });
 
 
@@ -154,20 +147,6 @@ function minimizeAPI(newState) {
 		_my_date_to_quit=(new Date()).getTime();
 	}
 }
-
-/*function chooseBackOptions() {
-	jembe.alert.show({
-		message:'Voulez-vous quitter l\'application ?',
-		onSuccess: onConfirmQuit,
-		title:'alerte',
-		buttons:'Non|Oui'
-	});
-}
-function onConfirmQuit(button) {
-	if (button==1) {
-		jembe.control.quit();
-	}
-}*/
 
 function openMenuAndroid() {
 	if(menu_open_android) {
@@ -209,40 +188,6 @@ function newCheckReseau(button) {
 		window.close();
     }
 }
-
-
-/*
-function testConnexion() {
-	if (jembe.internet.status=="waiting") is_waiting=true;
-	onOffline();
-}
-
-function onOffline() {
-	if(jembe.internet.status == "Reachable") is_waiting=false;
-	if(jembe.internet.status == "NotReachable" || is_waiting) {
-		if (!_is_alert) {
-			alert('La connexion est perdue. Veuillez vérifier l\'état du réseau.');
-			_is_alert = true;
-		}
-		if (_is_firstTimeOOL) checkUpdates();
-	} else {
-		if (_is_firstTimeOOL) checkUpdates();
-		_is_firstTimeOOL=false;
-		_is_alert = false;
-	}
-}
-
-function checkUpdates() {
-	if (jembe.internet.status=="Reachable") {
-		if (!is_started) {
-            //direct
-		}
-	} else {
-		if (!is_started) {
-            // pas de pub
-		}
-	}
-}*/
 
 var getMouseY = function(e){
     if ('ontouchmove' in window) {

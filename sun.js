@@ -3,10 +3,10 @@
 	id: 'sun',
 	nom: 'Sun Radio',
 	racine: 'http://www.lesonunique.com/',
-	//racine_services: 'http://sun.lafrap.fr/',
+	racine_services: 'http://sun.lafrap.fr/',
 	//racine_services: 'http://www.lesonunique.com/',
 	//racine_services: 'http://80.82.229.204:80/',
-	racine_services: 'http://80.82.229.214/',
+	//racine_services: 'http://80.82.229.214/',
 	repertoire_dedicace: 'dedicace',
 	
 	mp3_direct: {

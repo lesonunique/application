@@ -110,16 +110,16 @@ Player = {
 
 		// Evenements
 		this.player.on("direct_enter", function(event) {
-           	this.model.set('show_slider', true);
-			this.model.set('show_time_end', true);
+           	this.model.set('show_slider', false);
+			this.model.set('show_time_end', false);
 			this.model.set('show_time_now', true);
-			$("#separateur").show();
+			$("#separateur").hide();
         });
 		this.player.on("aod_enter", function(event) {
            	this.model.set('show_slider', true);
-			this.model.set('show_time_end', false);
-			this.model.set('show_time_now', false);
-			$("#separateur").hide();
+			this.model.set('show_time_end', true); // a voir ?
+			this.model.set('show_time_now', true); // a voir ?
+			$("#separateur").show(); // a voir ?
         });
 
         this.player.on("direct_exit", function(event) {
