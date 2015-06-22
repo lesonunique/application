@@ -46,7 +46,7 @@
 	<gap:plugin name="org.apache.cordova.inappbrowser"/>
 	<gap:plugin name="org.apache.cordova.network-information"/>
 	<gap:plugin name="nl.x-services.plugins.socialsharing" source="plugins.cordova.io" />
-	<gap:plugin name="com.cordova.background-audio"/>
+	<gap:plugin name="nl.kingsquare.background-audio"/>
 	
 	<icon src="images/logos/ios/57x57.png" gap:platform="ios" width="57" height="57" />
 	<icon src="images/logos/ios/72x72.png" gap:platform="ios" width="72" height="72" />
