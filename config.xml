@@ -46,7 +46,7 @@
 	<gap:plugin name="org.apache.cordova.inappbrowser"/>
 	<gap:plugin name="org.apache.cordova.network-information"/>
 	<gap:plugin name="nl.x-services.plugins.socialsharing" source="plugins.cordova.io" />
-	<gap:plugin name="com.cordova.background-audio" />
+	<!--<gap:plugin name="com.cordova.background-audio" />-->
 	<gap:config-file platform="ios" parent="UIBackgroundModes" overwrite="true">
 		<array>
 			<string>audio</string>
