@@ -40,7 +40,7 @@ Player = {
 	            'el': $("#jsplayer"),
 	            'template_id': 'player-template',
 	            'swf_path': 'flash/JsPlayer/jsplayer.swf',
-                'on_start': Player.playDirect
+                'on_ready': Player.playDirect
 	        });
 		} else {
 			this.player = JsPlayer.addPlayer({
