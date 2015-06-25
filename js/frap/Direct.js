@@ -38,13 +38,10 @@ Direct = {
 			dataType: 'json',
 			success: function(data) 
 			{
-				//console.log('********************************************* Direct.callback_direct='+msg);
 				Direct._meta = data;
 				console.log('Direct._meta');
 				console.log(Direct._meta.current.title+' '+Direct._meta.current.artiste);
 				console.log(Direct._meta);
-				//console.log('typeof(Direct._meta)='+typeof(Direct._meta)+', '+Direct._meta.current.title);
-				//alert('Direct._meta.current.length = '+Direct._meta.current.length);
 				if(Direct._current_direct != Direct._meta.current.title) {
 					Direct._current_direct = Direct._meta.current.title;
 					console.log('Show title');
@@ -63,11 +60,8 @@ Direct = {
 
 	callback_direct : function(msg) {
         try {
-            //console.log('********************************************* Direct.callback_direct='+msg);
             Direct._meta = '';
             eval('Direct._meta = '+msg);
-            //console.log('typeof(Direct._meta)='+typeof(Direct._meta)+', '+Direct._meta.current.title);
-            //alert('Direct._meta.current.length = '+Direct._meta.current.length);
             if(Direct._current_direct != Direct._meta.current.title) {
                 Direct.showTitle();
                 Direct._current_direct = Direct._meta.current.title;
@@ -118,12 +112,13 @@ Direct = {
 		
 		if (typeof(showArtiste) != "undefined")
 		{
-			Direct._txtShareTweet='J\'écoute%20%22'+showArtiste2+'%20-%20'+showTitle2+'%22%20sur%20%40lesonunique%20http://mysun.mx%20%23NowPlaying%20';
+			Direct._txtShareTweet='J\'%e9coute%20%22'+showArtiste2+'%20-%20'+showTitle2+'%22%20sur%20%40lesonunique%20http://mysun.mx%20%23NowPlaying%20';
 			//Direct._txtShareTweet=showArtiste2+'%20-%20'+showTitle2+'%20http://mysun.mx%20%23NowPlaying%20';
 		}
 		else
 		{
-			Direct._txtShareTweet=showTitle2+'%20http://mysun.mx%20%23NowPlaying%20';	
+			Direct._txtShareTweet='J\'%e9coute%20%22'+showTitle2+'%22%20sur%20%40lesonunique%20http://mysun.mx%20%23NowPlaying%20';
+			//Direct._txtShareTweet=showTitle2+'%20http://mysun.mx%20%23NowPlaying%20';
 		}
         Direct._shareFace='http://www.lesonunique.com'+Direct._meta.current.url;
 		Direct._shareTweet='http://www.lesonunique.com'+Direct._meta.current.url;
