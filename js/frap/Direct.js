@@ -118,7 +118,8 @@ Direct = {
 		
 		if (typeof(showArtiste) != "undefined")
 		{
-			Direct._txtShareTweet=showArtiste2+'%20-%20'+showTitle2+'%20http://mysun.mx%20%23NowPlaying%20';
+			Direct._txtShareTweet='J\'écoute%20%22'+showArtiste2+'%20-%20'+showTitle2+'%22%20sur%20%40lesonunique%20http://mysun.mx%20%23NowPlaying%20';
+			//Direct._txtShareTweet=showArtiste2+'%20-%20'+showTitle2+'%20http://mysun.mx%20%23NowPlaying%20';
 		}
 		else
 		{
