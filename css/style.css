@@ -34,7 +34,7 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    -webkit-user-select: none;
+    /*-webkit-user-select: none;*/
     -moz-user-select: none;
     -webkit-touch-callout: none;
     -moz-touch-callout: none;
@@ -675,7 +675,7 @@ body {
     height: 100%;
     max-height: 100px;
     overflow: hidden;
-    -webkit-user-select: none;
+    /*-webkit-user-select: none;*/
     -moz-user-select: none;
     user-select: none;
     -ms-touch-action: none;
@@ -765,7 +765,7 @@ body {
 	
 	
 	
-    -webkit-user-select: none;
+    /*-webkit-user-select: none;*/
     -moz-user-select: none;
     user-select: none;
     -ms-touch-action: none;
